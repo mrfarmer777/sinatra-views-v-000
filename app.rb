@@ -6,7 +6,7 @@ class App < Sinatra::Base
 		erb :index  #serve the token index using the erb templating language
 	end
 
-	get "/info" do 
+	get "/info" do
 		"Testing the info page"
 	end
 end
